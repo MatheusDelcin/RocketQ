@@ -40,7 +40,7 @@ body {
 }
 
 body,
-buttom,
+button,
 input,
 textarea {
   /*clamp= intervalo de tamanho*/
@@ -108,6 +108,20 @@ button.outlined,
   color: var(--blue);
   border: 0.2rem solid var(--blue);
 }
+
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/* header */
 
 .content header {
   width: 80%;
